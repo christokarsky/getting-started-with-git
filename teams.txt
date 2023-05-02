@@ -5,3 +5,12 @@ Test
 Test 2
 Test 3
 Test 4
+
+
+$ git remote add origin <REMOTE_URL>
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+
+$ git push -u origin main
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
